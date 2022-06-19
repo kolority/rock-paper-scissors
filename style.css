@@ -1,0 +1,32 @@
+html {
+    background-color: #FFFDD0;
+}
+body{
+     display: flex;
+     flex-direction: column;
+     
+}
+div.container{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+div.buttonHolder{
+    display: flex;
+    justify-content: center;
+}
+#button{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
